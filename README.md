@@ -1,3 +1,4 @@
+```shell
 dotfiles/
 ├── install.sh
 ├── config/
@@ -7,3 +8,4 @@ dotfiles/
 │   └── .bashrc
 ├── efi/
 │   └── custom-boot-entry.efi
+```
