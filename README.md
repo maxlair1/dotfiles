@@ -9,6 +9,15 @@ dotfiles/
 ├── efi/
 │   └── custom-boot-entry.efi
 ``` -->
+```
+                             __      __      
+   ____ ___  ____ __  ______/ /___  / /______
+  / __ `__ \/ __ `/ |/_/ __  / __ \/ __/ ___/
+ / / / / / / /_/ />  </ /_/ / /_/ / /_(__  ) 
+/_/ /_/ /_/\__,_/_/|_|\__,_/\____/\__/____/                                              
+```
+
+
 # Max's Dotfiles
 Welcome to my Arch Linux configurations and styling. Below I will document the steps to repoduce these exact machine configurations on a clean install.
 
@@ -27,13 +36,32 @@ Welcome to my Arch Linux configurations and styling. Below I will document the s
 - [ ] Finish dotfiles 
 
 ## 💾 Installation
+> [!CAUTION] Not Yet Working
+These dotfiles are not yet configured.
 
 **1**. Clone the repository
-
 ```shell
-$ sudo git clone https://github.com/maxlair1/dotfiles.git ~/.dotfiles
+$ sudo git clone https://github.com/maxlair1/dotfiles.git ~/.dotfiles # name whatever you like
 ```
 
+**2**. `cd` into cloned repository
+```shell
+$ cd ~/.dotfiles # change to whatever you named the folder
+```
+
+**?**. Run the `install` scripts to hook everything up
+```shell
+$ install-pacman.sh && install.sh
+
+# Example of structure → symlinks
+# dotfiles/
+# ├── install.sh
+# ├── install-pacman.sh
+# ├── config/     → ~/.config/*
+# ├── home/       → ~/.* like .zshrc, .gitconfig
+# ├── efi/        → /boot/efi/*
+# ├── packages/
+```
 
 ## 🍚 The Configs
 
