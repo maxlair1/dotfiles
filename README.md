@@ -36,8 +36,8 @@ Welcome to my Arch Linux configurations and styling. Below I will document the s
 - [ ] Finish dotfiles 
 
 ## 💾 Installation
-> [!CAUTION] Not Yet Working
-These dotfiles are not yet configured.
+> [!CAUTION]
+> These dotfiles are not yet configured.
 
 **1**. Clone the repository
 ```shell
