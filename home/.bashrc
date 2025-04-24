@@ -6,3 +6,6 @@
 #                                 
 
 PS1="\e[1;34m\u@\h\e[0m:\e[0m\w\e[0;31m\$ \e[0m"
+
+# Alias for quick pacman install
+alias pm='sudo pacman -S'

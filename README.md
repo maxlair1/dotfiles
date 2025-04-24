@@ -32,6 +32,11 @@ Welcome to my Arch Linux configurations and styling. Below I will document the s
 1. [🍚 The Configs](#the-configs)
 
 ## 🐧 TODO
+- [ ] Setup Display server ([xorg](https://wiki.archlinux.org/title/Xorg))
+- [ ] T480 Configs
+    - [x] Fingerprint Reader for Login
+    - [ ] Screen/display control 
+    - [ ] Keyboard backlight
 - [ ] Upgrade the file structure to [GNU Stow](https://www.gnu.org/software/stow/) for easier symlinks
 - [ ] Finish dotfiles 
 
