@@ -18,15 +18,22 @@ Welcome to my Arch Linux configurations and styling. Below I will document the s
 
 ## Table of Contents
 
+1. [🐧TODO](#todo)
 2. [💾 Installation](#installation)
 1. [🍚 The Configs](#the-configs)
-2. [💾 Installation](#the-configs)
+
+## 🐧 TODO
+- [ ] Upgrade the file structure to [GNU Stow](https://www.gnu.org/software/stow/) for easier symlinks
+- [ ] Finish dotfiles 
 
 ## 💾 Installation
-Clone the repository
+
+**1**. Clone the repository
+
 ```shell
 $ sudo git clone https://github.com/maxlair1/dotfiles.git ~/.dotfiles
 ```
+
 
 ## 🍚 The Configs
 
