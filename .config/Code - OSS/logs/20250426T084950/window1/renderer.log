@@ -1,0 +1,8 @@
+2025-04-26 08:49:53.298 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-26 08:49:53.391 [info] Started local extension host with pid 4004.
+2025-04-26 08:49:53.445 [info] Started initializing default profile extensions in extensions installation folder. file:///home/max/.vscode-oss/extensions
+2025-04-26 08:49:53.986 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/max/.vscode-oss/extensions
+2025-04-26 08:49:56.617 [info] [perf] Render performance baseline is 30ms
+2025-04-26 08:51:15.672 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-26 08:51:15.857 [info] Started local extension host with pid 4143.
+2025-04-26 08:51:18.511 [info] [perf] Render performance baseline is 37ms

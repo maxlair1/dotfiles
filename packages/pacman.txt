@@ -1,0 +1,8 @@
+dunst
+picom
+terminus-font
+bspwm
+skxhd
+feh
+rofi
+obsidian

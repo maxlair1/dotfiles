@@ -33,9 +33,11 @@ Welcome to my Arch Linux configurations and styling. Below I will document the s
 
 ## 🐧 TODO
 - [ ] Setup Display server ([xorg](https://wiki.archlinux.org/title/Xorg))
+- [x] Cool wallpaper (`feh`)
 - [ ] T480 Configs
     - [x] Fingerprint Reader for Login
-    - [ ] Screen/display control 
+    - [ ] Make trackpad feel and [work better](https://wiki.archlinux.org/title/Touchpad_Synaptics)
+    - [ ] Screen/display control (i.e. scale & brightness)
     - [ ] Keyboard backlight
 - [ ] Upgrade the file structure to [GNU Stow](https://www.gnu.org/software/stow/) for easier symlinks
 - [ ] Finish dotfiles 

@@ -55,7 +55,7 @@ super + ctrl + {m,x,y,z}
 #
 
 # focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
+super + {_,shift + }{a,s,w,d}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
@@ -121,7 +121,7 @@ super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 #firefox
-super + 1
+super + b
 	firefox
 
 #firefox
