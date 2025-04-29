@@ -12,7 +12,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 #autostart applications
-feh --bg-fill ~/.dotfiles/walls/marathon02.jpg &
+feh --bg-center ~/.dotfiles/walls/pixel_coast.jpg &
 sxhkd &
 picom --config $HOME/.config/picom/picom.conf &
 nitrogen --restore &

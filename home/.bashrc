@@ -5,7 +5,13 @@
 # |_.__/ \__,_|___/_| |_|_|  \___|
 #                                 
 
-PS1="\e[1;34m\u@\h\e[0m:\e[0m\w\e[0;31m\$ \e[0m"
+export TERM=xterm-kitty
+export TERMINAL=kitty
+
+PS1="\[\e[32m\]\u@\h:\w\$ \[\e[0m\]"
 
 # Alias for quick pacman install
 alias pm='sudo pacman -S'
+
+# Welcome script
+. ~/.dotfiles/home/startup.sh

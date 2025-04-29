@@ -15,23 +15,9 @@ Welcome to my Arch Linux configurations and styling. Below I will document the s
 
 ## Table of Contents
 
-1. [🐧TODO](#todo)
-2. [💾 Installation](#installation)
-1. [🍚 The Configs](#the-configs)
-
-## 🐧 TODO
-- [ ] Setup Display server ([xorg](https://wiki.archlinux.org/title/Xorg))
-- [x] Cool wallpaper (`feh`)
-- [x] Picom [animations](https://gitlab.com/Zaney/picom)
-- [ ] Fix Kitty [line wrap overwrite](https://github.com/kovidgoyal/kitty/issues/2023)
-- [ ] T480 Configs
-    - [x] Fingerprint Reader for Login
-    - [x] Make trackpad feel and [work better](https://wiki.archlinux.org/title/Touchpad_Synaptics)
-    - [ ] Natural Scrolling
-    - [ ] Screen/display control (i.e. scale & brightness)
-    - [ ] Keyboard backlight
-- [ ] Upgrade the file structure to [GNU Stow](https://www.gnu.org/software/stow/) for [easier symlinks](https://www.jakewiesler.com/blog/managing-dotfiles)
-- [ ] Finish dotfiles
+1. [💾 Installation](#installation)
+2. [🍚 The Configs](#the-configs)
+3. [🐧TODO](#todo)
 
 ## 💾 Installation
 > [!CAUTION]
@@ -73,4 +59,18 @@ $ install-pacman.sh && install.sh
 | [ranger](https://github.com/ranger/ranger)                                                        | File manager                                                               |
 | [polybar](https://github.com/polybar/polybar)                                                     | Status bar                                                                 |
 | [dunst](https://github.com/dunst-project/dunst) [this fork](https://github.com/Barbaross93/dunst) | Notification [daemon](https://en.wikipedia.org/wiki/Daemon_(computing))    |
-| [rofi](https://github.com/davatorium/rofi) & [dmenu](https://wiki.archlinux.org/title/Dmenu)      | Menus and application launchers |                                                    
+| [rofi](https://github.com/davatorium/rofi) & [dmenu](https://wiki.archlinux.org/title/Dmenu)      | Menus and application launchers |   
+
+## 🐧 TODO
+- [x] Setup Display server ([xorg](https://wiki.archlinux.org/title/Xorg))
+- [x] Cool wallpaper (`feh`)
+- [x] Picom [animations](https://gitlab.com/Zaney/picom)
+- [x] Fix Kitty [line wrap overwrite](https://github.com/kovidgoyal/kitty/issues/2023)
+- [ ] T480 Configs
+    - [x] Fingerprint Reader for Login
+    - [x] Make trackpad feel and [work better](https://wiki.archlinux.org/title/Touchpad_Synaptics)
+    - [ ] Natural Scrolling
+    - [ ] Screen/display control (i.e. scale & brightness)
+    - [ ] Keyboard backlight
+- [ ] Upgrade the file structure to [GNU Stow](https://www.gnu.org/software/stow/) for [easier symlinks](https://www.jakewiesler.com/blog/managing-dotfiles)
+- [ ] Finish dotfiles
