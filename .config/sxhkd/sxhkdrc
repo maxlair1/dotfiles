@@ -120,11 +120,18 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-#firefox
-super + b
-	firefox
+super + button{1-3}
+    bspc pointer -g {move,resize_side,resize_corner}
 
 #firefox
+alt + b
+	firefox
+
+#ranger
 super + e
 	ranger
+
+super + space
+	rofi -show run
+
 

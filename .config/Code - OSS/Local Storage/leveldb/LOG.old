@@ -1,2 +1,3 @@
-2025/04/26-08:49:50.761 f3f Creating DB /home/max/.config/Code - OSS/Local Storage/leveldb since it was missing.
-2025/04/26-08:49:51.269 f3f Reusing MANIFEST /home/max/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2025/04/28-19:51:23.038 79f Reusing MANIFEST /home/max/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2025/04/28-19:51:23.460 79f Recovering log #3
+2025/04/28-19:51:23.461 79f Reusing old log /home/max/.config/Code - OSS/Local Storage/leveldb/000003.log 

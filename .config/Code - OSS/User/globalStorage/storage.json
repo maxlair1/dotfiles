@@ -6,17 +6,24 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/max/.dotfiles"
+                "folderUri": "file:///home/max"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1745885269182"
+            }
+        ]
     },
-    "windowControlHeight": 42,
+    "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/max/.dotfiles": "__default__profile__"
+            "file:///home/max/.dotfiles": "__default__profile__",
+            "file:///home/max": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1745885269182": "__default__profile__"
+        }
     },
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
@@ -42,7 +49,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 244,
+            "sideBarWidth": 0,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -50,14 +57,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/max/.dotfiles",
-            "backupPath": "/home/max/.config/Code - OSS/Backups/62aa39fb376f01b43aeed8cd7ec35ea5",
+            "folder": "file:///home/max",
+            "backupPath": "/home/max/.config/Code - OSS/Backups/3a61f594e0e68adfe66fc24f6b277af0",
             "uiState": {
-                "mode": 1,
-                "x": 14,
-                "y": 589,
-                "width": 976,
-                "height": 477,
+                "mode": 0,
+                "x": 0,
+                "y": 42,
+                "width": 1823,
+                "height": 1025,
                 "zoomLevel": 1
             }
         },
