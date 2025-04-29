@@ -23,7 +23,7 @@ Welcome to my Arch Linux configurations and styling. Below I will document the s
 - [ ] Setup Display server ([xorg](https://wiki.archlinux.org/title/Xorg))
 - [x] Cool wallpaper (`feh`)
 - [x] Picom [animations](https://gitlab.com/Zaney/picom)
-- [ ] Fix Kitty line wrap overwrite
+- [ ] Fix Kitty [line wrap overwrite](https://github.com/kovidgoyal/kitty/issues/2023)
 - [ ] T480 Configs
     - [x] Fingerprint Reader for Login
     - [x] Make trackpad feel and [work better](https://wiki.archlinux.org/title/Touchpad_Synaptics)
