@@ -1,0 +1,69 @@
+{
+  "clientId": "0325d0ea-8826-494b-be8c-2e4c5fc4e31a",
+  "userId": "",
+  "authedUserIDs": [
+    "907415141590242744"
+  ],
+  "app": {
+    "logLevel": 1,
+    "lastTimeClearLogFile": 1746490750009,
+    "enableColorSpaceSrgb": false,
+    "visibleNewProjectBtn": true,
+    "useZenity": false,
+    "disableThemes": false,
+    "panelHeight": 40,
+    "saveLastOpenedTabs": true,
+    "exportDir": "/home/max/Pictures/Figma",
+    "commandSwitches": [
+      {
+        "switch": "enable-gpu-rasterization"
+      },
+      {
+        "switch": "enable-experimental-canvas-features"
+      },
+      {
+        "switch": "use-vulkan"
+      }
+    ],
+    "fontDirs": [
+      "/usr/share/fonts",
+      "/usr/local/share/fonts",
+      "/run/host/fonts",
+      "/run/host/user-fonts",
+      "/home/max/.local/share/fonts"
+    ],
+    "recentlyClosedTabs": [
+      {
+        "title": "Kiln UI",
+        "url": "https://www.figma.com/design/P4nmmRBxMXXUc380JvTDKa/Kiln-UI?viewport=0%2C0%2C1&t=XQPN5u0jGd9v2US4-0"
+      }
+    ],
+    "windowsState": {},
+    "lastOpenedTabs": {},
+    "featureFlags": {
+      "desktop_push_notifs_win": true,
+      "desktop_extension_registry": true,
+      "desktop_shell_allow_focus": true,
+      "desktop_multi_updates": true,
+      "desktop_unified_index_v3_rollout": true,
+      "desktop_piper_selected_slides_pdf": true,
+      "piper_pptx_export": true,
+      "desktop_icon_tl_v1": true,
+      "desktop_new_icons_v1": true,
+      "desktop_new_rev_icon_v1": true,
+      "desktop_community_tab_auto_close": true
+    },
+    "savedExtensions": [],
+    "themeDropdownOpen": true,
+    "creatorsThemesDropdownOpen": false,
+    "useOldPreviewer": false,
+    "dontShowTutorialCreator": false
+  },
+  "theme": {
+    "currentTheme": "0"
+  },
+  "ui": {
+    "scalePanel": 1,
+    "scaleFigmaUI": 1
+  }
+}

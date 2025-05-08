@@ -1,0 +1,10 @@
+2025-05-07 19:01:49.815 [info] Extension host with pid 1552 started
+2025-05-07 19:01:49.815 [info] Skipping acquiring lock for /home/max/.config/Code - OSS/User/workspaceStorage/de045d141a8b035fd6afde5a0c3a97e9.
+2025-05-07 19:01:49.842 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-07 19:01:49.923 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-07 19:01:50.559 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-07 19:01:51.535 [info] Eager extensions activated
+2025-05-07 19:01:51.645 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 19:01:51.686 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 19:02:30.942 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-07 19:02:30.960 [info] Extension host with pid 1552 exiting with code 0

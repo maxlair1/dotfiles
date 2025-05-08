@@ -1,0 +1,52 @@
+2025-05-01T13:58:00.441Z - info: [ui] [AppStore] loading 0 repositories from store
+2025-05-01T13:58:00.479Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-01T13:58:00.528Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-01T13:58:00.532Z - info: [ui] launching: 3.4.14-linux1 (Linux 6.14.3-arch1-1)
+2025-05-01T13:58:00.533Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-05-01T13:58:00.564Z - info: [ui] Opt in reported.
+2025-05-01T13:58:00.607Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-01T13:58:03.179Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2025-05-01T13:58:03.181Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-05-01T13:58:03.191Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=dc50712d-a978-4000-9895-ddda59c8475b
+2025-05-01T13:58:03.193Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2025-05-01T13:59:13.745Z - info: [main] Processing protocol url
+2025-05-01T13:59:13.756Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-05-01T13:59:13.829Z - info: [main] Processing protocol url
+2025-05-01T13:59:14.410Z - info: [ui] [SignInStore] account resolved
+2025-05-01T13:59:14.410Z - info: [ui] [AppStore] adding account maxlair1 (Max Lair ) to store
+2025-05-01T13:59:14.420Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2025-05-01T13:59:14.464Z - error: [ui] Error adding account 'maxlair1'
+Error: The name is not activatable
+2025-05-01T13:59:14.470Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-05-01T13:59:40.669Z - info: [ui] [AppStore] adding repository at /home/max/code/AtomicFolio to store
+2025-05-01T13:59:46.262Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-05-01T13:59:46.269Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=91334ec6-b06d-48bc-9eaf-9791f77610f7
+2025-05-01T13:59:48.921Z - info: [main] Processing protocol url
+2025-05-01T13:59:49.009Z - info: [main] Processing protocol url
+2025-05-01T13:59:49.455Z - info: [ui] [SignInStore] account resolved
+2025-05-01T13:59:49.456Z - info: [ui] [AppStore] adding account maxlair1 (Max Lair ) to store
+2025-05-01T13:59:49.486Z - error: [ui] Error adding account 'maxlair1'
+Error: The name is not activatable
+2025-05-01T13:59:49.854Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 6.516s)
+2025-05-01T13:59:49.858Z - error: [ui] `git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin` exited with an unexpected code: 1.
+Auto-merging .obsidian/plugins/recent-files-obsidian/data.json
+CONFLICT (content): Merge conflict in .obsidian/plugins/recent-files-obsidian/data.json
+Auto-merging .obsidian/workspace.json
+CONFLICT (content): Merge conflict in .obsidian/workspace.json
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 8: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2025-05-01T14:00:00.953Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.1s of which 0.0s paused, total 0.1s
+2025-05-01T14:01:07.809Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-05-01T14:01:07.819Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=7743cd89-b2db-430f-8bfa-3e513ad51310
+2025-05-01T14:02:04.218Z - info: [ui] [SignInStore] OAuth error but session has changed: Error: cancelled
+2025-05-01T14:02:04.218Z - info: [ui] credential-helper: could not find credential for https://github.com/
+2025-05-01T14:02:04.227Z - info: [ui] Executing push: git push origin main:main --progress (took 59.047s)
+2025-05-01T14:02:04.231Z - error: [ui] `git push origin main:main --progress` exited with an unexpected code: 128.
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+
+2025-05-01T14:02:30.746Z - info: [ui] credential-helper: could not find credential for https://github.com/
+2025-05-01T14:02:30.785Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 3.716s)
+2025-05-01T14:02:30.785Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+

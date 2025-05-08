@@ -1,0 +1,6 @@
+2025-05-04 14:05:02.500 [info] Started local extension host with pid 1860.
+2025-05-04 14:05:07.665 [info] [perf] Render performance baseline is 117ms
+2025-05-04 19:35:45.896 [info] Started local extension host with pid 8003.
+2025-05-04 19:35:50.537 [info] [perf] Render performance baseline is 90ms
+2025-05-04 19:35:54.553 [error] [File Watcher] Unexpected error: Permission denied (EUNKNOWN) (path: /)
+2025-05-04 19:35:54.554 [error] [File Watcher (universal)] Permission denied

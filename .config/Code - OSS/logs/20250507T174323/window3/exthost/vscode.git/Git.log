@@ -1,0 +1,227 @@
+2025-05-07 17:57:57.484 [info] [main] Log level: Info
+2025-05-07 17:57:57.484 [info] [main] Validating found git in: "git"
+2025-05-07 17:57:57.484 [info] [main] Using git "2.49.0" from "git"
+2025-05-07 17:57:57.484 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-07 17:57:57.484 [info] > git rev-parse --show-toplevel [13ms]
+2025-05-07 17:57:57.484 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2025-05-07 17:57:57.484 [info] [Model][openRepository] Opened repository: /home/max/Code/ux_portfolio_2025
+2025-05-07 17:57:57.484 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-07 17:57:57.484 [info] > git config --get commit.template [16ms]
+2025-05-07 17:57:57.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-05-07 17:57:57.484 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/ux_portfolio_2025/.git/refs/remotes/origin/main'
+2025-05-07 17:57:57.485 [info] > git rev-parse refs/remotes/origin/main [127ms]
+2025-05-07 17:57:57.561 [info] > git status -z -uall [59ms]
+2025-05-07 17:57:57.561 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [35ms]
+2025-05-07 17:57:57.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2025-05-07 17:57:57.816 [info] > git config --get --local branch.main.vscode-merge-base [64ms]
+2025-05-07 17:57:57.816 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-07 17:57:57.834 [info] > git config --get commit.template [108ms]
+2025-05-07 17:57:57.858 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-07 17:57:57.859 [info] > git reflog main --grep-reflog=branch: Created from *. [26ms]
+2025-05-07 17:57:57.886 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2025-05-07 17:57:57.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-05-07 17:57:57.920 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/ux_portfolio_2025/.git/refs/remotes/origin/main'
+2025-05-07 17:57:57.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [27ms]
+2025-05-07 17:57:57.931 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2025-05-07 17:57:57.958 [info] > git status -z -uall [11ms]
+2025-05-07 17:57:57.959 [info] > git config --add --local branch.main.vscode-merge-base origin/main [30ms]
+2025-05-07 17:57:57.960 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms] (cancelled)
+2025-05-07 17:57:58.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-05-07 17:57:58.026 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-05-07 17:57:58.038 [info] > git config --get commit.template [40ms]
+2025-05-07 17:57:58.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [18ms]
+2025-05-07 17:57:58.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-05-07 17:57:58.132 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/ux_portfolio_2025/.git/refs/remotes/origin/main'
+2025-05-07 17:57:58.133 [info] > git merge-base refs/heads/main refs/remotes/origin/main [65ms]
+2025-05-07 17:57:58.153 [info] > git diff --name-status -z --diff-filter=ADMR 4831e9ab94f53a64c6483270de7d3c465033e1e2...refs/remotes/origin/main [10ms]
+2025-05-07 17:57:58.154 [info] > git rev-parse refs/remotes/origin/main [22ms]
+2025-05-07 17:57:58.176 [info] > git status -z -uall [15ms]
+2025-05-07 17:57:58.181 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-07 18:03:08.694 [info] > git config --get commit.template [18ms]
+2025-05-07 18:03:08.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-05-07 18:03:08.713 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/ux_portfolio_2025/.git/refs/remotes/origin/main'
+2025-05-07 18:03:08.719 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-05-07 18:03:08.792 [info] > git status -z -uall [49ms]
+2025-05-07 18:03:08.792 [info] > git check-ignore -v -z --stdin [13ms]
+2025-05-07 18:03:08.793 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [36ms]
+2025-05-07 18:03:58.773 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-07 18:03:59.522 [info] > git config --get commit.template [26ms]
+2025-05-07 18:03:59.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-05-07 18:03:59.543 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/ux_portfolio_2025/.git/refs/remotes/origin/main'
+2025-05-07 18:03:59.551 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2025-05-07 18:03:59.607 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-07 18:03:59.637 [info] > git status -z -uall [68ms]
+2025-05-07 18:04:11.380 [info] > git config --get commit.template [4ms]
+2025-05-07 18:04:11.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-05-07 18:04:11.438 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/ux_portfolio_2025/.git/refs/remotes/origin/main'
+2025-05-07 18:04:11.453 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-05-07 18:04:11.503 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-05-07 18:04:11.761 [info] > git status -z -uall [293ms] (cancelled)
+2025-05-07 18:04:11.767 [info] > git check-ignore -v -z --stdin [7ms]
+2025-05-07 18:04:28.463 [info] > git check-ignore -v -z --stdin [6ms]
+2025-05-07 18:04:29.982 [info] > git check-ignore -v -z --stdin [3ms]
+2025-05-07 18:06:33.068 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-07 18:06:36.853 [info] > git ls-files --stage -- src/App.js [9ms]
+2025-05-07 18:06:36.882 [info] > git show --textconv :src/App.js [69ms]
+2025-05-07 18:06:36.906 [info] > git hash-object -t tree /dev/null [26ms]
+2025-05-07 18:06:36.907 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:06:36.917 [info] > git hash-object -t tree /dev/null [12ms]
+2025-05-07 18:06:36.918 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:06:38.846 [info] > git show --textconv :src/App.css [187ms]
+2025-05-07 18:06:38.848 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.css.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.css%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:06:38.919 [info] > git ls-files --stage -- src/App.css [209ms]
+2025-05-07 18:06:38.920 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.css.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.css%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:06:39.324 [info] > git show --textconv :src/App.js [44ms]
+2025-05-07 18:06:39.324 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:06:39.338 [info] > git ls-files --stage -- src/App.js [16ms]
+2025-05-07 18:06:39.343 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:06:41.536 [info] > git show --textconv :src/App.css [24ms]
+2025-05-07 18:06:41.539 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.css.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.css%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:06:41.540 [info] > git ls-files --stage -- src/App.css [9ms]
+2025-05-07 18:06:41.541 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.css.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.css%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:07:50.950 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-07 18:07:51.320 [info] > git show --textconv :src/App.scss [23ms]
+2025-05-07 18:07:51.327 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:07:51.328 [info] > git ls-files --stage -- src/App.scss [10ms]
+2025-05-07 18:07:51.331 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:07:52.045 [info] > git blame --root --incremental 4831e9ab94f53a64c6483270de7d3c465033e1e2 -- src/App.scss [5ms]
+2025-05-07 18:07:52.045 [info] fatal: no such path src/App.scss in 4831e9ab94f53a64c6483270de7d3c465033e1e2
+2025-05-07 18:08:03.024 [info] > git show --textconv :src/index.js [1ms]
+2025-05-07 18:08:03.031 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:08:03.064 [info] > git ls-files --stage -- src/index.js [8ms]
+2025-05-07 18:08:03.065 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:08:06.183 [info] > git blame --root --incremental 4831e9ab94f53a64c6483270de7d3c465033e1e2 -- src/index.js [8ms]
+2025-05-07 18:08:06.183 [info] fatal: no such path src/index.js in 4831e9ab94f53a64c6483270de7d3c465033e1e2
+2025-05-07 18:08:27.604 [info] > git show --textconv :src/index.css [20ms]
+2025-05-07 18:08:27.604 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.css.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.css%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:08:27.619 [info] > git ls-files --stage -- src/index.css [16ms]
+2025-05-07 18:08:27.620 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.css.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.css%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:08:35.907 [info] > git show --textconv :src/index.scss [27ms]
+2025-05-07 18:08:35.909 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:08:35.917 [info] > git ls-files --stage -- src/index.scss [11ms]
+2025-05-07 18:08:35.919 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:08:36.070 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-07 18:08:39.494 [info] > git blame --root --incremental 4831e9ab94f53a64c6483270de7d3c465033e1e2 -- src/index.scss [1ms]
+2025-05-07 18:08:39.494 [info] fatal: no such path src/index.scss in 4831e9ab94f53a64c6483270de7d3c465033e1e2
+2025-05-07 18:09:05.834 [info] > git show --textconv :src/index.js [28ms]
+2025-05-07 18:09:05.837 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:09:05.848 [info] > git ls-files --stage -- src/index.js [15ms]
+2025-05-07 18:09:05.851 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:09:11.501 [info] > git show --textconv :src/App.scss [24ms]
+2025-05-07 18:09:11.506 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:09:11.511 [info] > git ls-files --stage -- src/App.scss [15ms]
+2025-05-07 18:09:11.514 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:09:12.759 [info] > git show --textconv :src/App.js [42ms]
+2025-05-07 18:09:12.766 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:09:12.768 [info] > git ls-files --stage -- src/App.js [11ms]
+2025-05-07 18:09:12.775 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:09:14.381 [info] > git blame --root --incremental 4831e9ab94f53a64c6483270de7d3c465033e1e2 -- src/App.js [6ms]
+2025-05-07 18:09:14.381 [info] fatal: no such path src/App.js in 4831e9ab94f53a64c6483270de7d3c465033e1e2
+2025-05-07 18:09:21.941 [info] > git show --textconv :src/index.js [47ms]
+2025-05-07 18:09:21.941 [info] > git ls-files --stage -- src/index.js [10ms]
+2025-05-07 18:09:21.944 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:09:21.947 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:10:41.131 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-07 18:10:46.867 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-07 18:10:52.630 [info] > git check-ignore -v -z --stdin [6ms]
+2025-05-07 18:11:52.381 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-07 18:11:58.238 [info] > git check-ignore -v -z --stdin [9ms]
+2025-05-07 18:12:02.735 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-07 18:12:04.600 [info] > git show --textconv :src/styles/index.scss [31ms]
+2025-05-07 18:12:04.600 [info] > git ls-files --stage -- src/styles/index.scss [1ms]
+2025-05-07 18:12:04.601 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:04.603 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:04.633 [info] > git blame --root --incremental 4831e9ab94f53a64c6483270de7d3c465033e1e2 -- src/styles/index.scss [4ms]
+2025-05-07 18:12:04.633 [info] fatal: no such path src/styles/index.scss in 4831e9ab94f53a64c6483270de7d3c465033e1e2
+2025-05-07 18:12:09.605 [info] > git show --textconv :src/App.js [31ms]
+2025-05-07 18:12:09.612 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:09.627 [info] > git ls-files --stage -- src/App.js [25ms]
+2025-05-07 18:12:09.628 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:26.611 [info] > git show --textconv :src/index.js [21ms]
+2025-05-07 18:12:26.615 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:26.618 [info] > git ls-files --stage -- src/index.js [8ms]
+2025-05-07 18:12:26.622 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:29.740 [info] > git show --textconv :src/App.js [35ms]
+2025-05-07 18:12:29.740 [info] > git ls-files --stage -- src/App.js [2ms]
+2025-05-07 18:12:29.741 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:29.742 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:31.174 [info] > git show --textconv :src/styles/index.scss [22ms]
+2025-05-07 18:12:31.175 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:31.180 [info] > git ls-files --stage -- src/styles/index.scss [7ms]
+2025-05-07 18:12:31.181 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:12:58.699 [info] > git show --textconv :README.md [27ms]
+2025-05-07 18:12:58.721 [info] > git ls-files --stage -- README.md [23ms]
+2025-05-07 18:12:58.748 [info] > git cat-file -s 164201a24cd52df45484c93c3755629b0c138333 [3ms]
+2025-05-07 18:13:00.094 [info] > git blame --root --incremental 4831e9ab94f53a64c6483270de7d3c465033e1e2 -- README.md [119ms]
+2025-05-07 18:17:52.252 [info] > git ls-files --stage -- src/styles/index.scss [53ms]
+2025-05-07 18:17:52.310 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:17:52.352 [info] > git show --textconv :src/styles/index.scss [176ms]
+2025-05-07 18:17:52.353 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:29:03.903 [info] > git show --textconv :src/App.js [1094ms]
+2025-05-07 18:29:03.919 [info] > git ls-files --stage -- src/App.js [1097ms]
+2025-05-07 18:29:03.919 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:29:03.920 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:29:09.574 [info] > git show --textconv :src/styles/fonts.scss [21ms]
+2025-05-07 18:29:09.579 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/fonts.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Ffonts.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:29:09.581 [info] > git ls-files --stage -- src/styles/fonts.scss [10ms]
+2025-05-07 18:29:09.585 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/fonts.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Ffonts.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:29:09.853 [info] > git check-ignore -v -z --stdin [74ms]
+2025-05-07 18:37:34.575 [info] > git check-ignore -v -z --stdin [7ms]
+2025-05-07 18:37:41.634 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-07 18:37:58.276 [info] > git blame --root --incremental 4831e9ab94f53a64c6483270de7d3c465033e1e2 -- src/styles/fonts.scss [102ms]
+2025-05-07 18:37:58.291 [info] fatal: no such path src/styles/fonts.scss in 4831e9ab94f53a64c6483270de7d3c465033e1e2
+2025-05-07 18:44:57.001 [info] > git show --textconv :src/styles/index.scss [18ms]
+2025-05-07 18:44:57.045 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:44:57.048 [info] > git ls-files --stage -- src/styles/index.scss [51ms]
+2025-05-07 18:44:57.052 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:45:01.281 [info] > git show --textconv :src/styles/App.scss [19ms]
+2025-05-07 18:45:01.282 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/App.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2FApp.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:45:01.295 [info] > git ls-files --stage -- src/styles/App.scss [15ms]
+2025-05-07 18:45:01.295 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/App.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2FApp.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:45:01.331 [info] > git blame --root --incremental 4831e9ab94f53a64c6483270de7d3c465033e1e2 -- src/styles/App.scss [10ms]
+2025-05-07 18:45:01.331 [info] fatal: no such path src/styles/App.scss in 4831e9ab94f53a64c6483270de7d3c465033e1e2
+2025-05-07 18:45:04.538 [info] > git show --textconv :src/styles/index.scss [1ms]
+2025-05-07 18:45:04.544 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:45:04.563 [info] > git ls-files --stage -- src/styles/index.scss [5ms]
+2025-05-07 18:45:04.564 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:45:19.146 [info] > git show --textconv :src/styles/fonts.scss [17ms]
+2025-05-07 18:45:19.148 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/fonts.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Ffonts.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:45:19.149 [info] > git ls-files --stage -- src/styles/fonts.scss [6ms]
+2025-05-07 18:45:19.150 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/fonts.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Ffonts.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:45:27.158 [info] > git show --textconv :src/styles/index.scss [25ms]
+2025-05-07 18:45:27.159 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:45:27.169 [info] > git ls-files --stage -- src/styles/index.scss [12ms]
+2025-05-07 18:45:27.170 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:47:57.833 [info] > git show --textconv :src/styles/fonts.scss [15ms]
+2025-05-07 18:47:57.869 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/fonts.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Ffonts.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:47:57.872 [info] > git ls-files --stage -- src/styles/fonts.scss [39ms]
+2025-05-07 18:47:57.872 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/fonts.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Ffonts.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:49:12.547 [info] > git show --textconv :src/index.js [15ms]
+2025-05-07 18:49:12.592 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:49:12.600 [info] > git ls-files --stage -- src/index.js [53ms]
+2025-05-07 18:49:12.608 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:49:13.957 [info] > git show --textconv :src/styles/index.scss [15ms]
+2025-05-07 18:49:13.960 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:49:13.961 [info] > git ls-files --stage -- src/styles/index.scss [4ms]
+2025-05-07 18:49:13.963 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/index.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Findex.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:50:18.303 [info] > git show --textconv :src/index.js [23ms]
+2025-05-07 18:50:18.345 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:50:18.351 [info] > git ls-files --stage -- src/index.js [49ms]
+2025-05-07 18:50:18.353 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:50:29.248 [info] > git show --textconv :src/App.js [35ms]
+2025-05-07 18:50:29.249 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:50:29.256 [info] > git ls-files --stage -- src/App.js [11ms]
+2025-05-07 18:50:29.257 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:50:42.188 [info] > git show --textconv :src/styles/fonts.scss [26ms]
+2025-05-07 18:50:42.241 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/fonts.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Ffonts.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:50:42.243 [info] > git ls-files --stage -- src/styles/fonts.scss [56ms]
+2025-05-07 18:50:42.249 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/styles/fonts.scss.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2Fstyles%2Ffonts.scss%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:51:46.437 [info] > git show --textconv :src/App.js [24ms]
+2025-05-07 18:51:46.438 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:51:46.444 [info] > git ls-files --stage -- src/App.js [8ms]
+2025-05-07 18:51:46.444 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/src/App.js.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fsrc%2FApp.js%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:52:27.664 [info] > git check-ignore -v -z --stdin [138ms]
+2025-05-07 18:52:30.482 [info] > git ls-files --stage -- public/index.html [6ms]
+2025-05-07 18:52:30.488 [warning] [GitFileSystemProvider][stat] File not found - git:/home/max/Code/ux_portfolio_2025/public/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fpublic%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-07 18:52:30.510 [info] > git show --textconv :public/index.html [62ms]
+2025-05-07 18:52:30.511 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/max/Code/ux_portfolio_2025/public/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fmax%2FCode%2Fux_portfolio_2025%2Fpublic%2Findex.html%22%2C%22ref%22%3A%22%22%7D

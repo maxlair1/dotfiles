@@ -1,0 +1,21 @@
+2025-05-07 17:49:10.505 [info] Extension host with pid 80319 started
+2025-05-07 17:49:10.505 [info] Skipping acquiring lock for /home/max/.config/Code - OSS/User/workspaceStorage/87d28c24b081ab27a8996e3b2df62332.
+2025-05-07 17:49:10.546 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-07 17:49:10.596 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-07 17:49:10.848 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-07 17:49:11.184 [info] Eager extensions activated
+2025-05-07 17:49:11.263 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 17:49:11.270 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-07 17:49:11.731 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-07 17:49:13.625 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-07 17:57:59.898 [error] Error: Failed to execute git
+	at t.Git._exec (/usr/lib/code/extensions/git/dist/main.js:2:462119)
+	at async t.Git.exec (/usr/lib/code/extensions/git/dist/main.js:2:461238)
+	at async z.exec (/usr/lib/code/extensions/git/dist/main.js:2:466912)
+	at async z.getRemotesGit (/usr/lib/code/extensions/git/dist/main.js:2:489753)
+	at async z.getRemotes (/usr/lib/code/extensions/git/dist/main.js:2:489485)
+	at async Promise.all (index 1)
+	at async O._updateModelState (/usr/lib/code/extensions/git/dist/main.js:2:599586)
+	at async O.updateModelState (/usr/lib/code/extensions/git/dist/main.js:2:599411)
+	at async O.run (/usr/lib/code/extensions/git/dist/main.js:2:598619)
+	at async O.status (/usr/lib/code/extensions/git/dist/main.js:2:578888)

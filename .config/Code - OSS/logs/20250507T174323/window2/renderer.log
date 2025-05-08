@@ -1,0 +1,15 @@
+2025-05-07 17:49:08.118 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-05-07 17:49:08.685 [info] Started local extension host with pid 80319.
+2025-05-07 17:49:12.231 [info] [perf] Render performance baseline is 97ms
+2025-05-07 17:57:52.601 [error] Cannot register two commands with the same id: _workbench.openUserSettingsEditor: Error: Cannot register two commands with the same id: _workbench.openUserSettingsEditor
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:34:31760)
+    at t (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1864:81497)
+    at Hse.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1864:81817)
+    at E.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at E.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at E.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at aqs.updateCurrentProfile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3211:89449)
+    at UGe.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1840:76868)
+    at Hse.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1840:74572)
+    at E.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2392)
+2025-05-07 17:57:59.902 [error] An unknown error occurred. Please consult the log for more details.

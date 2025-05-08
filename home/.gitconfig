@@ -7,3 +7,8 @@
 [user]
 	email = 75456507+maxlair1@users.noreply.github.com
 	name = maxlair1
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

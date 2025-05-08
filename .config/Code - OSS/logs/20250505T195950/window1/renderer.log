@@ -1,0 +1,8 @@
+2025-05-05 20:00:25.427 [info] Started local extension host with pid 2447.
+2025-05-05 20:00:35.486 [info] [perf] Render performance baseline is 51ms
+2025-05-05 20:00:38.719 [error] [File Watcher] Unexpected error: Permission denied (EUNKNOWN) (path: /)
+2025-05-05 20:00:38.723 [error] [File Watcher (universal)] Permission denied
+2025-05-06 17:44:02.387 [info] Extension host (LocalProcess pid: 2447) is unresponsive.
+2025-05-06 17:44:02.634 [info] Extension host (LocalProcess pid: 2447) is responsive.
+2025-05-06 17:44:02.706 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-05-06 17:44:03.325 [info] UNRESPONSIVE extension host: starting to profile NOW

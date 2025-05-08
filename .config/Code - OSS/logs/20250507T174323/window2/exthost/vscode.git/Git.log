@@ -1,0 +1,60 @@
+2025-05-07 17:49:11.469 [info] [main] Log level: Info
+2025-05-07 17:49:11.469 [info] [main] Validating found git in: "git"
+2025-05-07 17:49:11.469 [info] [main] Using git "2.49.0" from "git"
+2025-05-07 17:49:11.469 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-07 17:49:11.469 [info] > git rev-parse --show-toplevel [38ms]
+2025-05-07 17:49:11.469 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-05-07 17:49:11.469 [info] [Model][openRepository] Opened repository: /home/max/Code/max_ux_portfolio
+2025-05-07 17:49:11.492 [info] > git config --get commit.template [11ms]
+2025-05-07 17:49:11.495 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-07 17:49:11.497 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-07 17:49:11.518 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-05-07 17:49:11.544 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/max_ux_portfolio/.git/refs/remotes/origin/main'
+2025-05-07 17:49:11.546 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-07 17:49:11.594 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-05-07 17:49:12.396 [info] > git check-ignore -v -z --stdin [6ms]
+2025-05-07 17:49:13.481 [info] > git status -z -uall [1918ms]
+2025-05-07 17:49:13.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2025-05-07 17:49:13.609 [info] > git config --get commit.template [22ms]
+2025-05-07 17:49:13.610 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-05-07 17:49:13.610 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-07 17:49:13.706 [info] > git reflog main --grep-reflog=branch: Created from *. [83ms]
+2025-05-07 17:49:13.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-05-07 17:49:13.750 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/max_ux_portfolio/.git/refs/remotes/origin/main'
+2025-05-07 17:49:13.756 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [39ms]
+2025-05-07 17:49:13.779 [info] > git rev-parse refs/remotes/origin/main [30ms]
+2025-05-07 17:49:13.813 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-07 17:49:13.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [42ms]
+2025-05-07 17:49:13.837 [info] > git config --add --local branch.main.vscode-merge-base origin/main [6ms]
+2025-05-07 17:49:13.867 [info] > git status -z -uall [78ms] (cancelled)
+2025-05-07 17:49:13.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-05-07 17:49:13.881 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-05-07 17:49:13.895 [info] > git config --get commit.template [30ms]
+2025-05-07 17:49:13.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2025-05-07 17:49:13.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-05-07 17:49:13.944 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/max/Code/max_ux_portfolio/.git/refs/remotes/origin/main'
+2025-05-07 17:49:13.945 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2025-05-07 17:49:13.956 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-05-07 17:49:13.977 [info] > git diff --name-status -z --diff-filter=ADMR fa0acece347c9b942cd4f5ba1958bb6c7befcbe4...refs/remotes/origin/main [22ms]
+2025-05-07 17:49:13.983 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-05-07 17:49:15.796 [info] > git status -z -uall [1829ms]
+2025-05-07 17:49:20.741 [info] > git check-ignore -v -z --stdin [3ms]
+2025-05-07 17:49:23.640 [info] > git check-ignore -v -z --stdin [6ms]
+2025-05-07 17:57:58.766 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/max/Code/max_ux_portfolio/.git/HEAD'
+2025-05-07 17:57:58.783 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/max/Code/max_ux_portfolio/.git/config'
+2025-05-07 17:57:58.800 [info] > git remote --verbose [16ms]
+2025-05-07 17:57:58.800 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-07 17:57:58.827 [info] > git symbolic-ref --short HEAD [60ms]
+2025-05-07 17:57:58.827 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-07 17:57:58.859 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/max/Code/max_ux_portfolio/.git/HEAD'
+2025-05-07 17:57:58.869 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/max/Code/max_ux_portfolio/.git/config'
+2025-05-07 17:57:58.881 [info] > git config --get commit.template [85ms]
+2025-05-07 17:57:58.889 [info] > git config --get commit.template [9ms]
+2025-05-07 17:57:58.890 [info] > git remote --verbose [21ms]
+2025-05-07 17:57:58.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-07 17:57:58.891 [info] > git symbolic-ref --short HEAD [31ms]
+2025-05-07 17:57:58.891 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-07 17:57:58.902 [info] > git rev-parse HEAD [57ms]
+2025-05-07 17:57:58.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-07 17:57:58.903 [info] > git rev-parse HEAD [2ms]
+2025-05-07 17:57:58.903 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,30 @@
+# Plugins
+plugin:
+  sendkey:
+    keypress_delay: 10
+
+swipe:
+  3:
+    pinch_in:
+      command: "xdotool keydown ctrl click 5 keyup ctrl"
+    pinch_out:
+      command: "xdotool keydown ctrl click 4 keyup ctrl"
+
+pinch:
+  in:
+    threshold: 0.1
+    command: >
+      xdotool keydown ctrl &&
+      for i in {1..2}; do xdotool click 5; done &&
+      xdotool keyup ctrl
+  out:
+    threshold: 0.1
+    command: >
+      xdotool keydown ctrl &&
+      for i in {1..2}; do xdotool click 4; done &&
+      xdotool keyup ctrl
+
+
+
+interval:
+  pinch: 0.3

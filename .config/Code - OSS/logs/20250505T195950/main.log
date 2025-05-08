@@ -1,0 +1,6 @@
+2025-05-05 19:59:59.883 [info] update#setState disabled
+2025-05-05 19:59:59.883 [info] update#ctor - updates are disabled as there is no update URL
+2025-05-05 20:00:09.487 [error] CodeWindow: detected unresponsive
+2025-05-05 20:00:17.062 [error] CodeWindow: recovered from unresponsive
+2025-05-06 17:44:02.469 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-06 17:45:32.811 [info] Extension host with pid 2447 exited with code: 0, signal: unknown.

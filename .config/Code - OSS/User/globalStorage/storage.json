@@ -6,18 +6,39 @@
         "workspaces": [],
         "folders": [
             {
+                "folderUri": "file:///"
+            },
+            {
+                "folderUri": "file:///home/max/Code/max_ux_portfolio"
+            },
+            {
+                "folderUri": "file:///home/max/Code/ux_portfolio_2025"
+            },
+            {
                 "folderUri": "file:///home/max"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1746666489097"
+            }
+        ]
     },
     "windowControlHeight": 42,
     "profileAssociations": {
         "workspaces": {
             "file:///home/max/.dotfiles": "__default__profile__",
-            "file:///home/max": "__default__profile__"
+            "file:///home/max": "__default__profile__",
+            "file:///home": "__default__profile__",
+            "file:///": "__default__profile__",
+            "file:///home/max/.config": "__default__profile__",
+            "file:///home/max/.config/fusuma": "__default__profile__",
+            "file:///home/max/Code/max_ux_portfolio": "__default__profile__",
+            "file:///home/max/Code/ux_portfolio_2025": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1746666489097": "__default__profile__"
+        }
     },
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
@@ -43,7 +64,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 244,
+            "sideBarWidth": 205,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -51,15 +72,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/max",
-            "backupPath": "/home/max/.config/Code - OSS/Backups/3a61f594e0e68adfe66fc24f6b277af0",
+            "folder": "file:///home/max/Code/ux_portfolio_2025",
+            "backupPath": "/home/max/.config/Code - OSS/Backups/09ca0a86a75680ba37db7c617d5ee039",
             "uiState": {
-                "mode": 0,
-                "x": 0,
-                "y": 42,
-                "width": 1823,
-                "height": 1025,
-                "zoomLevel": 1
+                "mode": 1,
+                "x": 14,
+                "y": 46,
+                "width": 1892,
+                "height": 1020
             }
         },
         "openedWindows": []
